@@ -1,0 +1,390 @@
+@media (min-width: 1200px){
+    .container {
+        max-width: 1440px;
+    }
+}
+.nav-logo {
+    padding-bottom: 20px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+    padding: 0;
+}
+nav .container{
+    height: 70px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+
+}
+nav ul li a.active {
+    font-weight: bold; /* Change the style of active link */
+}
+.currency-container {
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgba(242, 242, 242, 1);
+    border-radius: 15px;
+}
+benefits .container{
+    height: 50px;
+    font-size: 14px;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+}
+hero {
+    height: 650px;
+}
+.hero-container {
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+#hero-bg {
+    background-image: linear-gradient(90deg, #EDE9DD 91.67%, rgba(237, 233, 221, 0) 100%),
+    url('../images/new-arrivals/gold-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-1{
+    width: 916px;
+    height: 1221px;
+    position: absolute;
+    top: -165px;
+    left: -125px;
+    z-index: 1; 
+}
+.hero-2{
+    width: 644px;
+    height: 446px;
+    position: absolute;
+    top: 0;
+    left: 635px;
+    z-index: 2; 
+}
+deals {
+    height: 150px;
+}
+.deals-container {
+    text-align: center;
+}
+vip {
+    height: 75px;
+    background: #000000;
+}
+#vip-1 {
+    background-image: url('../images/vip/bg.png'); 
+}
+.vip-txt-1 {
+    font-size: 32px;
+    font-style: Montserrat;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.vip-txt-2 {
+    font-size: 18px;
+    font-style: Montserrat;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+trending {
+    text-align: center;
+    height: 1040px;
+}
+trending h2, trending p {
+    padding: 10px 20px 20px 20px;
+}
+.trending-container {
+    width: 265px;
+    height: 390px;
+    padding: 20px 0px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+.trending-txt {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-transform: uppercase;
+}
+.hashtag-container {
+    display: flex;
+    gap: 20px;
+}
+.hashtag {
+    width: 148px;
+    height: 37px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.arrival-container {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+#new-arrival-bg {
+    background-image: linear-gradient(90deg, rgba(255, 203, 124, 0) 0%, #b77108 100%),
+    url('../images/new-arrivals/gold-bg.jpg');
+    mix-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.arrival-txt1 {
+    font-weight: 800;
+    font-size: 86px;
+    line-height: 86px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.arrival-txt2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34.13px;
+    color: #FFFFFF;
+    color: #FFFFFF;
+}
+.arrival-model-1{
+    width: 449px;
+    height: 674px;
+    position: absolute;
+    top: -46px;
+    left: 55px;
+    z-index: 1; 
+}
+.arrival-model-2{
+    width: 377px;
+    height: 566px;
+    position: absolute;
+    top: -46px;
+    left: 400px;
+    z-index: 2; 
+}
+.arival-button{
+    font-size: 18px;
+    width: 180px;
+    height: 50px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    border-color: rgb(173, 151, 24);
+}
+recently {
+    text-align: center;
+}
+recently img {
+    width: 225px;
+    height: 300px;
+}
+.recently-container {
+    padding: 20px;
+    margin: 20px;
+}
+.recently-text {
+    font-weight: 400;
+    line-height: 17.07px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 225px;
+    height: 50px;
+}
+insta .container {
+    text-align: center;
+    background: rgba(242, 242, 242, 1);
+}
+insta img {
+    width: 225px;
+    height: 225px;
+}
+.black-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.black-button:hover {
+    background-color: #333;
+}
+.container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h2 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43.88px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+}
+.hashtag-div {
+    padding-bottom: 20px;
+}
+.hashtag-text, .recently-price {
+    font-weight: 600;
+    line-height: 17.07px;
+    font-size: 14px;
+}
+.recently-price-original {
+    text-decoration: line-through;
+    font-weight: 800;
+
+}
+.recently-price-discounted {
+    color: rgba(193, 39, 45, 1);
+    font-weight: 800;
+    width: 58px;
+    height: 25px;
+}
+newsletter .container {
+    height: 75px;
+    background: rgba(0, 0, 0, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+newsletter h2 {
+    font-weight: 800;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+newsletter form {
+    padding-top: 8px;
+}
+newsletter input {
+    width: 354px;
+    height: 40px;
+}
+footer .container{
+    font-size: 12px;
+    line-height: 14.63px;
+    text-align: left;
+    font-weight: 400;
+    padding: 40px;
+}
+footer .footenav-logo {
+    float: right;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    width: 120px;
+    height: 35px;
+    padding: 10px 0px 0px 0px;
+}
+
+footer ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #333;
+}
+
+footer ul li a:hover, nav ul li a:hover {
+
+    text-decoration: none;
+}
+footer h6 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+footer li {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.footer-nav {
+    height: 210px;
+}
+.socials {
+    font-size: 14px;
+}
+.payments {
+    width: 37.5px;
+    height: 25px;
+}
+.custom-container{
+    margin-bottom: 20px;
+}
+.social-container, .payment-container{
+    margin-bottom: 15px;
+}
+.social-container-2 a, .social-container-2 a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.buy-btn {
+    font-size: 18px;
+    width: 180px;
+    height: 50px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    /* border: 1px solid #000000;
+    color: #000000; */
+}
+.item-txt {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+.price-txt {
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 800px;
+    }
+}
+.modal-dialog {
+    width: 1000px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.product{
+    font-size: 30px;
+    text-align: center;
+}
+.total-amount{
+    font-weight: 400;
+}
